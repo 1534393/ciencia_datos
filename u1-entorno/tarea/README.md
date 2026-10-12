@@ -8,20 +8,17 @@ del curso y explicarás lo que hiciste en un informe de 500 a 700 palabras.
 1. **Fork y entorno.** Haz un fork de `curso-datos` y ábrelo en un Codespace (o en
    un Dev Container local si se agotó tu cuota). Ejecuta
    `python u1-entorno/tarea/verificar_entorno.py`. Debe terminar con `OK`.
-2. **Un cambio de entorno, solo en tu fork.** Agrega una librería con versión fija a
-   `requirements.txt`, reconstruye el contenedor y comprueba la versión con
-   `pip show`. Anota el enlace a tu commit para el informe.
-3. **Arregla el ejercicio.** Copia `ejercicio.py` a
+2. **Arregla el ejercicio.** Copia `ejercicio.py` a
    `entregas/<tu-usuario>/`. Tiene errores de estilo a propósito. Corrígelos con
    `ruff check --fix` y `ruff format`; lo que `ruff` no arregle solo, hazlo a mano.
    Las funciones deben seguir haciendo lo que su descripción dice.
-4. **Escribe pruebas.** En la misma carpeta crea `test_ejercicio.py` con al menos
+3. **Escribe pruebas.** En la misma carpeta crea `test_ejercicio.py` con al menos
    dos pruebas de `pytest`, una de ellas con un caso borde.
-5. **Trabaja con Git como se pide.** Crea la rama `u1/<tu-usuario>` y haz al menos
+4. **Trabaja con Git como se pide.** Crea la rama `u1/<tu-usuario>` y haz al menos
    tres commits pequeños, con mensajes que expliquen el porqué del cambio.
-6. **Abre el pull request** al repositorio del curso (no a tu fork), con la
+5. **Abre el pull request** al repositorio del curso (no a tu fork), con la
    plantilla de descripción. Debe tocar únicamente `entregas/<tu-usuario>/`.
-7. **Escribe el informe.** Copia `informe_plantilla.md` como `informe.md` en tu
+6. **Escribe el informe.** Copia `informe_plantilla.md` como `informe.md` en tu
    carpeta de entrega y complétalo.
 
 ## Qué contiene tu carpeta de entrega
