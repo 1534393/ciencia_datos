@@ -18,7 +18,7 @@ del curso y explicarás lo que hiciste en un informe de 500 a 700 palabras.
    tres commits pequeños, con mensajes que expliquen el porqué del cambio.
 5. **Abre el pull request** al repositorio del curso (no a tu fork), con la
    plantilla de descripción. Debe tocar únicamente `entregas/<tu-usuario>/`.
-6. **Escribe el informe.** Copia `informe_plantilla.md` como `informe.md` en tu
+6. **Escribe el informe.** Copia `Plantilla-Informe.md` como `informe.md` en tu
    carpeta de entrega y complétalo.
 
 ## Qué contiene tu carpeta de entrega
